@@ -1,4 +1,4 @@
-# Telegram Group Logger Bot
+# Telegram Group Logger Python Scripting
 
 A Telegram bot that logs group information (group name and chat ID) into an Excel file (`group_info.xlsx`) whenever it receives any message from the group.
 
