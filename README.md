@@ -2,12 +2,14 @@
 
 A Telegram bot that logs group information (group name and chat ID) into an Excel file (`group_info.xlsx`) whenever it receives any message from the group.
 
-## Features
 
+## Features
+- Runs on your local PC
 - Automatically logs group name, chat ID, and timestamp to an Excel file (`group_info.xlsx`)
 - Avoids duplicate logging for the same group
 - Periodically prints polling timestamps for monitoring
 - Graceful shutdown on Ctrl+C
+- Editable polling rate updater.start_polling(poll_interval=0.5)
 
 ---
 
@@ -29,3 +31,8 @@ A Telegram bot that logs group information (group name and chat ID) into an Exce
   Run the following command in your terminal:  
   ```bash
   pip install python-telegram-bot==13.15 openpyxl
+
+  ---
+
+## 3. Thanks to contributor
+  Thanks to chatGPT . 
